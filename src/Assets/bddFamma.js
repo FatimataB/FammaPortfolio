@@ -1,0 +1,136 @@
+const illustrations=[{
+    name:"portrait0",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019450/Illustration_Portraits0_acfilc.jpg",
+    type:"home",
+    theme:"PORTRAITS"
+},
+{
+    name:"fashion0",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019450/Illustration_Fashion0_f7ckx2.jpg",
+    type:"home",
+    theme:"FASHION",
+    link:"./fashion"
+},
+{
+    name:"nature0",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019451/Illustration_Nature0_ptpvyh.jpg",
+    type:"home", 
+    theme:"NATURE",
+    link:"./nature"
+},
+{
+    name:"lifestyle0",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019451/Illustration_Lifestyle0_vjbdjz.jpg",
+    type:"home",
+    theme:"LIFESTYLE",
+    link:"./lifestyle"
+    
+},
+{
+    name:"patterns0",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019450/Illustration_Patterns0_ankje9.jpg",
+    type:"home",
+    theme:"PATTERNS",
+    link:"./patterns"
+},
+{
+    name:"hairstyles0",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019451/Illustration_Hairstyles0_qpr69m.jpg",
+    type:"home",
+    theme:"HAIRSTYLES",
+    link:"./hairstyles"
+},
+//patterns
+{
+    name:"patterns1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624021055/Illustration_Pattern1_bbixvs.png",
+    type:"patterns1",
+    top:true
+
+},
+{
+    name:"patterns1bg1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624021055/Illustration_Pattern1_BG1_kn5yqx.jpg",
+    type:"patternsbg"
+},
+{
+    name:"patterns2",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624178518/Illustration_Patterns2_tvmgra.jpg",
+    type:"patterns"
+},
+{
+    name:"patterns3",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624023381/Illustration_Patterns7_bobbeb.jpg",
+    type:"patterns"
+},
+{
+    name:"patterns4",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624023380/Illustration_Patterns4_zsxgrn.jpg",
+    type:"patterns"
+},
+{
+    name:"patterns5",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624023380/Illustration_Patterns5_ggzt7i.jpg",
+    type:"patterns"
+},
+{
+    name:"patterns6",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624023380/Illustration_Patterns3_lri3rv.jpg",
+    type:"patterns"
+    
+},
+{
+    name:"patterns7",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624023380/Illustration_Patterns6_pebhkb.jpg",
+    type:"patterns"
+    
+},
+{
+    name:"patterns8",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624023380/Illustration_Patterns8_zuwaxi.jpg",
+    type:"patterns"
+},
+{
+    name:"patterns9",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624023380/Illustration_Patterns9_tdmtzh.jpg",
+    type:"patterns"
+},
+{
+    name:"patterns1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624023380/Illustration_Patterns10_qypgbl.jpg",
+    type:"patterns"
+},
+//nature
+{
+    name:"nature2",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624346545/Illustration_Nature2_uhfa6p.jpg",
+    type:"nature"
+},
+{
+    name:"nature3",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624346546/Illustration_Nature3_tn08xq.jpg",
+    type:"nature"
+},
+{
+    name:"nature4",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624346546/Illustration_Nature4_zslj0g.jpg",
+    type:"nature"
+},
+{
+    name:"nature5",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624346546/Illustration_Nature5_hq6bdi.jpg",
+    type:"nature"
+},
+{
+    name:"nature6",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624346546/Illustration_Nature6_ym3fnm.jpg",
+    type:"nature"
+},
+{
+    name:"nature7",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624346546/Illustration_Nature7_xeijrl.jpg",
+    type:"nature"
+},
+]
+
+export default illustrations
