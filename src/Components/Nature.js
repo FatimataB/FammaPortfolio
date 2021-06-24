@@ -1,6 +1,6 @@
 import illustrations from '../Assets/bddFamma.js'
 import Illustrations from './Illustrations.js'
-import Illustration_Nature1 from'./Illustration_Nature1.jpg'
+import Illustration_Nature1 from'../Assets/Illustration_Nature1.jpg'
 
 
 

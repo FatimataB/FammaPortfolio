@@ -131,6 +131,62 @@ const illustrations=[{
     path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624346546/Illustration_Nature7_xeijrl.jpg",
     type:"nature"
 },
+//work
+//femme
+{
+    name:"workStories1.1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019492/Illustration_Work_LittleStories5_wtizww.jpg",
+    type:"work1"
+},
+{
+    name:"workStories1.2",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019491/Illustration_Work_LittleStories6_xjvhhz.jpg",
+    type:"work1"
+},
+{
+    name:"workStories1.3",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019491/Illustration_Work_LittleStories7_eidvvw.jpg",
+    type:"work1"
+},
+{
+    name:"workStories1.4",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019492/Illustration_Work_LittleStories8_sygecd.jpg",
+    type:"work1"
+},
+//homme
+{
+    name:"workStories2.1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019492/Illustration_Work_LittleStories1_ivgxv2.jpg",
+    type:"work2"
+},
+{
+    name:"workStories2.2",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019492/Illustration_Work_LittleStories2_kja0pv.jpg",
+    type:"work2"
+},
+{
+    name:"workStories2.3",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019492/Illustration_Work_LittleStories3_rgvott.jpg",
+    type:"work2"
+},
+{
+    name:"workStories2.4",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019491/Illustration_Work_LittleStories4_lh0rqz.jpg",
+    type:"work2"
+},
+//Lingerie
+{
+    name:"workLingerie.1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624547573/E_I_Lingerie_prljyy.png",
+    type:"work3"
+},
+
+//book
+{
+    name:"bookcover",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624542284/BookCover_A_Sissoko1_ndxrxa.png",
+    type:"book"
+},
 ]
 
 export default illustrations

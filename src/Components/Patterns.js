@@ -1,6 +1,6 @@
 import illustrations from '../Assets/bddFamma.js'
 import Illustrations from './Illustrations.js'
-import Illustration_Patterns1 from'./Illustration_Patterns1.png'
+import Illustration_Patterns1 from'../Assets/Illustration_Patterns1.png'
 
 
 
@@ -14,6 +14,7 @@ const Patterns =()=> {
     return(
        
       <div className="patterns">
+      
 
         <section className="titre">
         <h1>PATTERNS</h1>

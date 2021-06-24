@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 
 .App{
 
@@ -27,8 +28,8 @@ h1,h2{
   display:flex;
   justify-content:space-between;
   position:absolute;
-  top:0px;
-  right:15px;
+  top:0%;
+  right:2%;
   width:40%;
   
   
@@ -65,15 +66,13 @@ h1,h2{
 .home .illustrations img{
  
   width:90%;
-  height:90%;
+  height:390px;
   object-fit:cover;
-
-  transition:all 1s;
+  z-index:-1;
 } 
-.home .illustrations img:hover{
-  opacity:0.5;
 
-}
+
+
 .home section{
   display:flex;
   flex-wrap: wrap;
@@ -86,11 +85,14 @@ h1,h2{
 
 .home .illustrations .titre p{
    font-family: 'Passion One', cursive;
-   letter-spacing:15px;
+   letter-spacing:12px;
    color:white;
    font-size:2.5em;
-   width:100%;
-   padding-left:2px;
+   width:90%;
+   padding:120px 0  180px 0;
+   border:white 1px solid;
+   text-align:center;
+   z-index:1;
    
 }
 .home .illustrations .titre {
@@ -100,41 +102,42 @@ h1,h2{
    position:absolute;
     width:90%;
     height:45%;
-   top:30%;
+   top:0%;
     left:0%;
     cursor:pointer;
+  z-index:1;
   
 }
 .home .illustrations {
    position:relative;
    width:350px;
    height:400px;
-}
-.home .findme{
-  margin:60px 0;
-
-}
-.findme img{
-  width:96%;
- padding-bottom:0;
-}
-.home .findme ul{
-  list-style:none;
-  display:flex;
-  justify-content:center;
+  
 }
 
-.home ul li+li{
-  margin-left:20px;
-
+.home .hide{
+ opacity:0;
+}
+.home .show{
+  opacity:1;
 }
 
+.home .opacityNo{
+  opacity:1;
+}
+
+.home .opacityYes{
+  opacity:0.5;
+}
 /*----------P A T T E R N S-------------*/
+
+
 .patterns{
   width:100%;
   display:flex;
   flex-direction:column;
   justify-content:center;
+ 
 }
 
 .patterns .titre{
@@ -155,19 +158,19 @@ h1,h2{
    margin-top:0;
    letter-spacing:0;
   }
-
-
  
 .patterns .image1{
-  width:77%;
-  
+  width:87%;
+  height:30%;
+  object-fit:cover;
   margin-top:20px;
   background: #F4EABE;
   display:flex;
   justify-content:center;
   align-items:center;
-  
 
+  background-size:cover;
+  
 }  
 
 
@@ -176,36 +179,37 @@ h1,h2{
   flex-wrap: wrap;
   justify-content:center;
   width:100%;
-  margin-top:0px;
+  margin-top:20px;
   background: #F4EABE;
   padding-bottom:20px;
+   position:relative;
   
    
 }
 .patterns .image1 {
-  background-image:url("./Components/Illustration_Pattern1_BG1.png");
   animation: background 5s linear infinite; 
 }
 @keyframes background{
 
-0% {background-image:url("./Components/Illustration_Pattern1_BG8.png")}
-30% {background-image:url("./Components/Illustration_Pattern1_BG6.png")}
-50% {background-image:url("./Components/Illustration_Contact.png")}
-80% {background-image:url("./Components/Illustration_Pattern1_BG5.png")}
-100% {background-image:url("./Components/Illustration_Pattern1_BG2.png")}
+0% {background-image:url("./Assets/Illustration_sans_titre-6.png")}
+35% {background-image:url("./Assets/Illustration_Pattern1_BG6.png")}
+70% {background-image:url("./Assets/Illustration_Pattern1_BG4.png")}
+100% {background-image:url("./Assets/Illustration_Pattern1_BG2.png")}
 
 }
 .patterns .illustrations{
-  width:350px;
+  width:427px;
   height:450px;
+   text-align:center;
    
 }
 .patterns .illustrations img{
  
-  width:100%;
-  height:95%;
+  width:90%;
+  height:420px;
   object-fit:cover;
   transition: 2s;
+  text-align:center;
   
 }
 
@@ -218,7 +222,9 @@ h1,h2{
 /*----------N A T U R E-------------*/
 
 .nature .image1{
-  width:77%;
+  width:90%;
+  height:450px;
+  object-fit:cover;
   margin-top:20px;
   background: #C6BD9E;
   display:flex;
@@ -230,20 +236,22 @@ h1,h2{
   display:flex;
   flex-wrap: wrap;
   justify-content:center;
+  align-items:center;
   width:100%;
   margin-top:0px;
   background: #C6BD9E;
   padding-bottom:20px;
 }
 .nature .illustrations{
-  width:350px;
+  width:427px;
   height:450px;
+  text-align:center;
    
 }
 .nature .illustrations img{
  
-  width:100%;
-  height:95%;
+  width:90%;
+  height:420px;
   object-fit:cover;
   transition: 2s;
   
@@ -279,16 +287,267 @@ h1,h2{
   }
   /*----------F O O T E R-------------*/
 
-  .footer{
+  .footer .copyrights{
       font-family: 'Roboto', sans-serif;
-      font-size:1em;
+      font-size:0.8em;
       color: #857D7D;
       display:flex;
+     
       justify-content:center;
       align-items:center;
-      margin:100px 0 10px 10px;
+      margin:50px 0 10px 10px;
   }
 
-  .footer svg{
+  .footer .copyrights svg{
     padding:0 5px;
   }
+   .findme{
+  margin:30px 0;
+
+}
+.findme img{
+  width:100%;
+ padding-bottom:0;
+}
+ .findme ul{
+  list-style:none;
+  display:flex;
+  justify-content:center;
+  margin-top:0;
+  padding-top:0;
+}
+
+.footer ul li+li{
+  margin-left:10px;
+
+}
+
+    /*----------C O N T A C T-------------*/
+
+    form{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+     justify-content:center;
+     margin-right:5px;
+     width:60%;
+     height:500px;
+     margin-top:30;
+     margin-bottom:40px;
+     padding-bottom:15px;
+      border:1px solid white;
+      border-radius:10px;
+      
+
+    }
+    form input{
+      width:80%;
+      height:40px;
+      margin-top:25px;
+    
+      font-size:0.8em;
+      font-weight:bolder;
+      font-family: 'Roboto', sans-serif;
+      opacity:0.8;
+      
+    }
+
+     form textarea{
+        width:80%;
+        height:200px;
+        margin-top:25px;
+       
+        font-size:0.8em;
+         font-weight:bolder;
+        font-family: 'Roboto', sans-serif;
+        opacity:0.8;
+     }
+    .contact img{
+      width:45%;
+      height:600px;
+      object-fit:cover;
+    }
+     .contact{
+       
+       width:80%;
+       margin:auto;
+      
+       display:flex;
+       flex-direction:row;
+      justify-content:center;
+      align-items:center;
+        
+     }
+     .cm{
+      height:600px;
+      margin-top:0;
+      padding-top:10px;
+      background-image:url("./Assets/Illustration_Nature7.png");
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+    
+      
+       
+     }
+     form input[type="submit"] {
+        color:white;
+        background:black;
+        width:100px;
+        border-radius:8px;
+        border:none;
+        text-align:center;
+    
+
+     }
+     .cm h1{ 
+        font-size:2em;  
+        font-family: 'Passion One', cursive;
+        letter-spacing:2px;
+      
+     }
+       /*----------W O R K-------------*/
+      .cards{
+        display:flex;
+        flex-direction:row;
+        align-items:flex-start;
+        justify-content:space-around;
+        flex-wrap:wrap;
+      
+        margin:auto;
+        /*border:solid 1px blue;*/
+        margin:20px 5px;
+      }
+      .work h1{
+        font-size: 2.5em;
+        letter-spacing: 10px;
+        text-align:center;
+        padding-top:0;
+        margin-top:0;
+      }
+      .work h2{
+        position:absolute;
+        top:250px;
+        color:white;
+        font-size:4em;
+        
+      text-align:center;
+       
+      }
+
+      .work .littlestories .illustrations img{
+        width:150px;
+        height:160px;
+        object-fit:cover;
+        margin:0;
+        padding:0;
+       
+      }
+      .work .littlestories .illustrations{
+         width:200px;
+         display:flex;
+        justify-content:center;
+        align-items:center;
+        
+      }
+      .littlestories{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+         width:400px;
+         height:800px;
+       border:#F6F7F2 2px solid;
+        background-color:#f4eabe;
+        border-radius:10px;
+        margin-bottom:30px;
+         position:relative;
+      }
+      .work1{
+        display:flex;
+        justify-content:center;
+        align-items:flex-start;
+        flex-wrap:wrap;
+        width:100%;
+        background-color:#F4EABE;
+         padding:10px 0;
+         margin-bottom:30px;
+
+      }
+      .work2{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        width:100%;      
+        background-color:#F4EABE;
+        padding:10px 0;
+
+      }
+      .work3{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+  
+         width:400px;  
+         /*border:solid 1px yellow; */
+
+      }
+      .fabricpatterns{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+          width:400px;
+        height:800px;
+       border:#F6F7F2 2px solid;
+        border-radius:10px;
+        
+       
+        margin-bottom:30px;
+         position:relative;
+      }
+      .work .fabricpatterns .illustrations img{
+         width:400px;
+        height:800px;
+        object-fit:cover;
+        margin:0;
+        padding:0;
+         border-radius:10px;
+          
+        /*border:1px solid red;*/
+      
+      }
+      .work .fabricpatterns .illustrations{
+         width:50%;
+         display:flex;
+        justify-content:center;
+        align-items:center;
+        /*border:1px solid orange;*/
+        
+      }
+      .book{
+        width:400px;
+       border:#F6F7F2 2px solid;
+       background-color:#7f233b;
+        border-radius:10px;
+        margin-bottom:30px;
+        height:800px;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        align-items:center;
+         position:relative;
+
+      }
+      .work .book .illustrations img{
+         width:400px;
+        height:700px;
+        object-fit:cover;
+        margin:40px 0;
+        padding:0;
+      } 
+      
