@@ -6,9 +6,12 @@ import Home from './Components/Home.js'
 import Work from './Components/Work.js'
 import Shop from './Components/Shop.js'
 import Contact from './Components/Contact.js'
-import About from './Components/About.js'
 import Patterns from './Components/Patterns.js'
 import Nature from './Components/Nature.js'
+import Fashion from './Components/Fashion.js'
+import Portraits from'./Components/Portraits.js'
+import Hairstyles from'./Components/Hairstyles.js'
+import Lifestyle from'./Components/Lifestyle.js'
 
 
 import React from "react";
@@ -35,9 +38,7 @@ function App() {
           <Route path="/work">
             <Work/>
           </Route>  
-          <Route path="/about">
-            <About/>
-          </Route>  
+         
 
           <Route path="/shop">
             <Shop/>
@@ -54,6 +55,23 @@ function App() {
            <Route path="/nature">
             <Nature/>
           </Route> 
+
+          <Route path="/fashion">
+            <Fashion/>
+          </Route>
+
+          <Route path="/portraits">
+            <Portraits/>
+          </Route>
+
+          <Route path="/hairstyles">
+            <Hairstyles/>
+          </Route>
+
+          <Route path="/lifestyle">
+            <Lifestyle/>
+          </Route>
+
 
           <Route path="/"> 
             <Home/>

@@ -2,7 +2,8 @@ const illustrations=[{
     name:"portrait0",
     path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019450/Illustration_Portraits0_acfilc.jpg",
     type:"home",
-    theme:"PORTRAITS"
+    theme:"PORTRAITS",
+    link:"./portraits"
 },
 {
     name:"fashion0",
@@ -23,8 +24,7 @@ const illustrations=[{
     path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019451/Illustration_Lifestyle0_vjbdjz.jpg",
     type:"home",
     theme:"LIFESTYLE",
-    link:"./lifestyle"
-    
+    link:"./lifestyle"    
 },
 {
     name:"patterns0",
@@ -45,7 +45,6 @@ const illustrations=[{
     name:"patterns1",
     path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624021055/Illustration_Pattern1_bbixvs.png",
     type:"patterns1",
-    top:true
 
 },
 {
@@ -184,8 +183,151 @@ const illustrations=[{
 //book
 {
     name:"bookcover",
-    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624542284/BookCover_A_Sissoko1_ndxrxa.png",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624604411/BookCover_A_Sissoko_qn9agx.png",
     type:"book"
+},
+//fashion
+{
+    name:"fashion1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_Fashion1_u7ipun.jpg",
+    type:"fashion"
+},
+{
+    name:"fashion2",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_fashion7_fgmss5.jpg",
+    type:"fashion"
+},
+{
+    name:"fashion3",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_Fashion6_s0g8tl.jpg",
+    type:"fashion"
+},
+{
+    name:"fashion4",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_Fashion9_fjyaqi.jpg",
+    type:"fashion"
+},
+{
+    name:"fashion5",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_Fashion2_rmekvn.jpg",
+    type:"fashion"
+},
+{
+    name:"fashion6",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624629915/Illustration_Fashion12_y5d6bi.png",
+    type:"fashion"
+},
+
+//Portraits
+{
+    name:"portraits1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624622775/Illustration_Portraits4_innecf.jpg",
+    type:"portraits"
+},
+{
+    name:"portraits2",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624624371/Illustration_Portraits3_pwlcq4.png",
+    type:"portraits"
+},
+{
+    name:"portraits3",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624624371/Illustration_Portraits6_zssuph.png",
+    type:"portraits"
+},
+{
+    name:"portraits4",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624625006/Illustration_Portraits5_mqfdhe.png",
+    type:"portraits"
+},
+{
+    name:"portraits5",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624625596/Illustration_Portraits1_cc56wc.png",
+    type:"portraits"
+},
+{
+    name:"portraits6",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624622775/Illustration_Portraits2_fmz4si.jpg",
+    type:"portraits"
+},
+//Hairstyles
+{
+    name:"hairstyles1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624626516/Illustration_Hairstyles6_fsgbgx.png",
+    type:"hairstyles"
+},
+{
+    name:"hairstyles2",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624626516/Illustration_Hairstyles5_lkvs9u.png",
+    type:"hairstyles"
+},
+{
+    name:"hairstyles3",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624626516/Illustration_Hairstyles2_slxjbm.jpg",
+    type:"hairstyles"
+},
+{
+    name:"hairstyles4",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624626516/Illustration_Hairstyles3_yr1ztp.png",
+    type:"hairstyles"
+},
+{
+    name:"hairstyles5",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624626516/Illustration_Hairstyles7_wqgx1g.png",
+    type:"hairstyles"
+},
+{
+    name:"hairstyles6",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624626516/Illustration_Hairstyles4_enydbt.png",
+    type:"hairstyles"
+},
+{
+    name:"hairstyles7",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628737/Illustration_Hairstyles9_dolipj.png",
+    type:"hairstyles"
+},
+{
+    name:"hairstyles8",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628737/Illustration_Hairstyles8_qayntt.png",
+    type:"hairstyles"
+},
+{
+    name:"hairstyles9",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624629022/Illustration_Hairstyles10_wh1isx.png",
+    type:"hairstyles"
+},
+//Lifestyle
+{
+    name:"lifestyle1",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628868/Illustration_Lifestyle7_ql3rt7.png",
+    type:"lifestyle"
+},
+{
+
+    name:"lifestyle2",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628866/Illustration_Lifestyle6_l3rdum.png",
+    type:"lifestyle"
+},
+{
+    name:"lifestyle3",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628866/Illustration_Lifestyle5_n3n3te.png",
+    type:"lifestyle"
+    
+},
+{
+    name:"lifestyle4",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628866/Illustration_Lifestyle3_ou6rut.png",
+    type:"lifestyle"
+},
+{
+    name:"lifestyle5",
+    path:" https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628866/Illustration_Lifestyle1_uejcm8.png",
+    type:"lifestyle"
+   
+},
+{
+    name:"lifestyle6",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628866/Illustration_Lifestyle2_iy0kme.png",
+    type:"lifestyle"
 },
 ]
 

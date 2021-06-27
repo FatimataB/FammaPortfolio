@@ -3,7 +3,7 @@ const Shop =()=> {
        
       
      <div className="shop">
-        Shop
+        coming soon
      </div>
 
 
