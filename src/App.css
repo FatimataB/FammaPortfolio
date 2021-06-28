@@ -27,10 +27,10 @@ h1,h2{
 .header ul{
   list-style:none;
   display:flex;
-  /*position:fixed;*/
   justify-content:space-between;
   width:40%;  
   margin-right:20px;
+  margin-top:10px;
   
 }
 
@@ -254,7 +254,7 @@ h1,h2{
 
 .nature .image1{
   width:90%;
-  height:450px;
+  height:550px;
   object-fit:cover;
   margin-top:20px;
   background: #C6BD9E;
@@ -276,7 +276,7 @@ h1,h2{
   font-size: 2.5em;
   letter-spacing: 10px;
   margin-top:0;
-  margin-bottom:0;
+  margin-bottom:20px;
   text-align:center;
 }
 .nature .titre h2{
@@ -299,7 +299,9 @@ h1,h2{
   }
 
   .footer .copyrights svg{
-      padding:0 5px;
+      padding:0 2px 0 5px;
+    
+     
   }
    .findme{
       margin:30px 0;
@@ -339,11 +341,10 @@ h1,h2{
       flex-direction:column;
       align-items:center;
       justify-content:center;
-      margin-right:5px;
       width:60%;
       height:500px;
-      margin-top:30;
-      margin-bottom:40px;
+      margin-top:20px;
+      margin-bottom:20px;
       padding-bottom:15px;
       border:1px solid white;
       border-radius:10px;
@@ -353,8 +354,7 @@ h1,h2{
     form input{
       width:80%;
       height:40px;
-      margin-top:25px;
-    
+      margin-top:25px;   
       font-size:0.8em;
       font-weight:bolder;
       font-family: 'Roboto', sans-serif;
@@ -372,46 +372,46 @@ h1,h2{
         opacity:0.8;
      }
 
-    .contact img{
-      width:45%;
-      height:600px;
-      object-fit:cover;
-    }
-     .contact{
-       
-       width:80%;
-       margin:auto;
-       display:flex;
-       flex-direction:row;
-      justify-content:center;
-      align-items:center;
+    
+     .cm .contact{
+        width:100%;
+        height:600px;
+         margin-top:40px;
+        margin:auto;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        background-image:url("./Assets/Illustration_Nature7.png");
         
      }
      .cm{
-      height:600px;
-      margin-top:0;
-      padding-top:10px;
-      background-image:url("./Assets/Illustration_Nature7.png");
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      text-align:center;     
+        width:100%;
+        padding-top:10px;   
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+       
        
      }
      form input[type="submit"] {
         color:white;
-        background:black;
+        background-color: #E2C139;
         width:100px;
         border-radius:8px;
         border:none;
         text-align:center;
+        opacity:1;
+        font-size:0.9em;
+        font-weight:bolder;
     
      }
      .cm h1{ 
         font-size:2em;  
         font-family: 'Passion One', cursive;
         letter-spacing:2px;
+        padding-bottom:30px;
       
      }
        /*----------W O R K-------------*/
@@ -586,12 +586,14 @@ h1,h2{
           font-size:0.7em;
         }  
      
-        .findmeimg{
+         .findmeimg{
           width:100%;
-          width:10px;
-          padding-bottom:0;  
-          background-size: 100% 100%;
-        
+          height:20vh;
+          padding-bottom:0;
+          background-image:url("./Components/findme2.png");
+          background-repeat: no-repeat;
+          background-size:120% 100%;
+
         }
         .patterns .titre{
           margin-left:0;
@@ -604,7 +606,29 @@ h1,h2{
         }
          .findme ul li svg{  
           width:25px;
-      }
+        }
+        .cm .contact{
+          width:100%;
+          height:500px;
+          background-size:cover;
+           margin-top:20px;
+        }
+        .home .hide{
+          opacity:1;
+        }
+        .home .show{
+        opacity:1;
+ 
+        }
+
+      .home .opacityNo{
+          opacity:1;
+        }
+
+.home .opacityYes{
+  opacity:1;
+}
+      
     }
 
      @media(max-width:768px){
@@ -639,11 +663,36 @@ h1,h2{
 
         }
         .findmeimg{
-          width:100%;
-          height:10vh;
-          padding-bottom:0;  
-          background-size: cover;
+          width:200px;
+          height:100px;
+          background-size: 100% 80%;
+          padding-bottom:0;
+        
         }
+        .cm .contact{
+          width:100%;
+          height:500px;
+          background-size:cover;
+         
+        }
+        .cm .contact .h1{
+          padding-bottom:30px;
+        }
+        .home .hide{
+ opacity:0;
+}
+.home .show{
+  opacity:1;
+ 
+}
+
+.home .opacityNo{
+  opacity:1;
+}
+
+.home .opacityYes{
+  opacity:0.5;
+}
     }
 
     @media(max-width:1100px){

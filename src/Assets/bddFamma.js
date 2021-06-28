@@ -21,10 +21,11 @@ const illustrations=[{
 },
 {
     name:"lifestyle0",
-    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019451/Illustration_Lifestyle0_vjbdjz.jpg",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628868/Illustration_Lifestyle7_ql3rt7.png ",
     type:"home",
     theme:"LIFESTYLE",
-    link:"./lifestyle"    
+    link:"./lifestyle"   
+    
 },
 {
     name:"patterns0",
@@ -298,7 +299,7 @@ const illustrations=[{
 //Lifestyle
 {
     name:"lifestyle1",
-    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628868/Illustration_Lifestyle7_ql3rt7.png",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019451/Illustration_Lifestyle0_vjbdjz.jpg",
     type:"lifestyle"
 },
 {

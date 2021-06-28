@@ -2,7 +2,7 @@
 import './App.css';
 import Header from './Components/Header.js'
 import Footer from './Components/Footer.js'
-import Home from './Components/Home.js'
+import Portfolio from './Components/Portfolio.js'
 import Work from './Components/Work.js'
 import Shop from './Components/Shop.js'
 import Contact from './Components/Contact.js'
@@ -74,7 +74,7 @@ function App() {
 
 
           <Route path="/"> 
-            <Home/>
+            <Portfolio/>
           </Route>  
         </Switch>
           <Footer/>
