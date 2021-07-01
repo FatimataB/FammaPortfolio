@@ -196,8 +196,8 @@ h1,h2{
   }
  
 .patterns .image1{
-  width:87%;
-  height:30%;
+  width:92%;
+  height:400px;
   object-fit:cover;
   margin-top:20px;
   background: #F4EABE;
@@ -731,6 +731,22 @@ h1,h2{
       100%{letter-spacing:20px} 
      
     }  
+    .patterns .image1{
+      width:92%;
+      height:300px;
+      object-fit:cover;
+      margin-top:20px;
+      background: #F4EABE;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      animation: background 5s linear infinite; 
+      background-size:cover;
+  
+    }  
+    .illustrations  img:hover{
+        transform:scale(1)
+    }
       
       }
     /*---I PAD---*/
@@ -804,7 +820,7 @@ h1,h2{
         }
 
         .home .opacityYes{
-          opacity:0.5;
+          opacity:1;
         }
         .shop .title p{
       font-family: 'Roboto', sans-serif;
