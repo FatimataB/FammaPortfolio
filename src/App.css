@@ -215,6 +215,8 @@ h1,h2{
    
 }
 
+
+
 @keyframes background{
 
 0% {background-image:url("./Assets/Illustration_sans_titre-6.png")}
@@ -253,8 +255,8 @@ h1,h2{
 /*----------N A T U R E-------------*/
 
 .nature .image1{
-  width:90%;
-  height:550px;
+  width:92%;
+  height:500px;
   object-fit:cover;
   margin-top:20px;
   background: #C6BD9E;
@@ -267,11 +269,26 @@ h1,h2{
 
 .nature .titre{
   display:flex;
-  flex-direction:column;
-  
-  
+  flex-direction:column;  
   
 }
+.nature .images{
+  position: relative;
+}
+.nature .papillon{
+  position:absolute;
+  top:380px;
+  right:660px;
+  width:100px;
+  animation: buterfly 4s linear ; 
+  
+}
+
+@keyframes buterfly {
+  from {top:180px;}
+  to {top:380px;}
+} 
+
 .nature .titre h1{
   font-size: 2.5em;
   letter-spacing: 10px;
@@ -305,6 +322,8 @@ h1,h2{
   }
    .findme{
       margin:30px 0;
+      height:180px;
+      padding-bottom:0;
       display:flex;
       flex-direction:column;
       align-items:flex-start;
@@ -312,11 +331,12 @@ h1,h2{
 }
   .findmeimg{
       width:100%;
-      height:20vh;
+      height:1800px;
       padding-bottom:0;
       background-image:url("./Components/findme.png");
       background-repeat: no-repeat;
       background-size:100% 100%;
+      
 
 }
  .findme ul{
@@ -326,14 +346,16 @@ h1,h2{
       align-items:center;
       margin-top:0;
       padding-top:0;
-      width:100%
+      width:100%;
+     
 }
 
 .footer ul li+li{
       margin-left:10px;
 
 }
-
+ 
+ 
     /*----------C O N T A C T-------------*/
 
     form{
@@ -555,14 +577,50 @@ h1,h2{
  /*----------S H O P-------------*/
     .shop{
       width:100%;
-      height:400px;
       display:flex;
-      align-items:center;
+      flex-direction:column;
       justify-content:center;
+      align-items:center;
+    }
+    .shop .title{
+      width:100%;
+    }
+    .shop .title p{
+      font-family: 'Roboto', sans-serif;
+      color: #857D7D;
+      font-size:1em;
+      font-weight:bolder;
+      text-align:center;
+      margin:5px 0 20px 0;
+      animation: moove 5s linear infinite; 
+    }
+    @keyframes moove{
+      0% {letter-spacing:2px}
+      25% {letter-spacing:10px}
+      50%{letter-spacing:20px} 
+      75%{letter-spacing:40px} 
+      100%{letter-spacing:70px} 
+     
+    }
+     .shop .title h1{
+        margin-bottom:0;
+        padding:0;
+       }
+    .shop .shopimg {
+       width:100%;
+       height:auto;
+    }
+    .shop .shopimg img{
+      width:100%;
+      height:720px;
+      object-fit:cover;
 
+  
     }
 
 /*-------R E S P O N S I V E--------*/
+    
+    /*---PHONE---*/
 
       @media (max-width:420px){
 
@@ -596,7 +654,7 @@ h1,h2{
           padding-bottom:0;
           background-image:url("./Components/findme2.png");
           background-repeat: no-repeat;
-          background-size:120% 100%;
+          background-size:120% 70%;
 
         }
         .patterns .titre{
@@ -646,8 +704,36 @@ h1,h2{
       .home .opacityYes{
           opacity:1;
         }
+      .shop .shopimg img{
+        width:100%;
+        height:350px;
+        
+      }  
+      .shop .shopimg {
+        width:100%;
+        height:350px;
+      }
       
+      .shop .title p{
+      font-family: 'Roboto', sans-serif;
+      color: #857D7D;
+      font-size:1em;
+      font-weight:bolder;
+      text-align:center;
+      margin:5px 0 20px 0;
+      animation: moove 4s linear infinite; 
     }
+    @keyframes moove{
+      0% {letter-spacing:2px}
+      25% {letter-spacing:5px}
+      50%{letter-spacing:10px} 
+      75%{letter-spacing:15px} 
+      100%{letter-spacing:20px} 
+     
+    }  
+      
+      }
+    /*---I PAD---*/
 
      @media(max-width:768px){
         .header ul li a{
@@ -684,12 +770,15 @@ h1,h2{
 
         }
         .findmeimg{
-          width:200px;
-          height:100px;
-          background-size: 100% 80%;
+          width:100%;
+          height:100vh;
           padding-bottom:0;
-        
+          background-image:url("./Components/findme2.png");
+          background-repeat: no-repeat;
+          background-size:100% 70%;
+
         }
+      
         .findme ul{
           padding-right:20px;
         }
@@ -703,23 +792,41 @@ h1,h2{
           padding-bottom:30px;
         }
         .home .hide{
- opacity:0;
-}
-.home .show{
-  opacity:1;
+          opacity:0;
+        }
+        .home .show{
+          opacity:1;
  
-}
+        }
 
-.home .opacityNo{
-  opacity:1;
-}
+        .home .opacityNo{
+          opacity:1;
+        }
 
-.home .opacityYes{
-  opacity:0.5;
-}
+        .home .opacityYes{
+          opacity:0.5;
+        }
+        .shop .title p{
+      font-family: 'Roboto', sans-serif;
+      color: #857D7D;
+      font-size:1em;
+      font-weight:bolder;
+      text-align:center;
+      margin:5px 0 20px 0;
+      animation: moove 4s linear infinite; 
     }
+    @keyframes moove{
+      0% {letter-spacing:2px}
+      25% {letter-spacing:10px}
+      50%{letter-spacing:12px} 
+      75%{letter-spacing:15px} 
+      100%{letter-spacing:20px} 
+     
+    }
+        
+      }
 
-    @media(max-width:1100px){
+        @media(max-width:1100px){
         .header ul {
           flex-wrap:wrap
         }                
