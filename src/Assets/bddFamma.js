@@ -2,42 +2,42 @@ const illustrations=[{
     name:"portrait0",
     path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019450/Illustration_Portraits0_acfilc.jpg",
     type:"home",
-    theme:"PORTRAITS",
+    theme:"LOGOS",
     link:"./portraits"
 },
 {
     name:"fashion0",
-    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019450/Illustration_Fashion0_f7ckx2.jpg",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1632504898/3E8F9EA9-88DF-432E-ADE0-A27649788B00_ljmcgq.jpg",
     type:"home",
-    theme:"FASHION",
+    theme:"ILLUSTRATIONS",
     link:"./fashion"
 },
 {
     name:"nature0",
     path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019451/Illustration_Nature0_ptpvyh.jpg",
     type:"home", 
-    theme:"NATURE",
+    theme:"AFFICHES",
     link:"./nature"
 },
 {
     name:"lifestyle0",
     path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624628868/Illustration_Lifestyle7_ql3rt7.png ",
     type:"home",
-    theme:"LIFESTYLE",
+    theme:"UI DESIGN",
     link:"./lifestyle"   
     
 },
 {
     name:"patterns0",
     path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019450/Illustration_Patterns0_ankje9.jpg",
-    type:"home",
+    type:"h",
     theme:"PATTERNS",
     link:"./patterns"
 },
 {
     name:"hairstyles0",
     path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624019451/Illustration_Hairstyles0_qpr69m.jpg",
-    type:"home",
+    type:"h",
     theme:"HAIRSTYLES",
     link:"./hairstyles"
 },
@@ -190,27 +190,27 @@ const illustrations=[{
 //fashion
 {
     name:"fashion1",
-    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_Fashion1_u7ipun.jpg",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1632505323/B4B479C5-5B56-4C8E-9778-199A66D7B1C9_zes9ua.jpg",
     type:"fashion"
 },
 {
     name:"fashion2",
-    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_fashion7_fgmss5.jpg",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1632505675/Screenshot_SWiming_flamingos_c5et0z.png",
     type:"fashion"
 },
 {
     name:"fashion3",
-    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_Fashion6_s0g8tl.jpg",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1632505316/BBAA6555-3C9A-4C29-B661-300D8C7AB569_dpls01.jpg",
     type:"fashion"
 },
 {
     name:"fashion4",
-    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_Fashion9_fjyaqi.jpg",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624346546/Illustration_Nature3_tn08xq.jpg",
     type:"fashion"
 },
 {
     name:"fashion5",
-    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624620844/Illustration_Fashion2_rmekvn.jpg",
+    path:"https://res.cloudinary.com/dotv9gsm3/image/upload/v1624624371/Illustration_Portraits3_pwlcq4.png",
     type:"fashion"
 },
 {

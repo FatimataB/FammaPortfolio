@@ -1,6 +1,6 @@
 
 import './App.css';
-import Header from './Components/Header.js'
+/*import Header from './Components/Header.js'*/
 import Footer from './Components/Footer.js'
 import Portfolio from './Components/Portfolio.js'
 import Work from './Components/Work.js'
@@ -31,9 +31,6 @@ function App() {
     <Router>
       <div className="App">
       
-        <Header/>
-
-
         <Switch>
           <Route path="/work">
             <Work/>

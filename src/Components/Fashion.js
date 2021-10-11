@@ -9,7 +9,7 @@ const Fashion=()=>{
 
     return(
         <div className="fashion">
-            <h1> FASHION </h1>
+            <h1> ILLUSTRATIONS </h1>
             <section className="images">
             {filteredIllustrations.map ((dessin)=>{
                 

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
   box-sizing: border-box; 
@@ -12,12 +13,17 @@
 
   width:100%;
   margin:auto;
+  background-image: url("./Assets/watercolor-background.jpg");
+  background-size: cover;
+  background-position-y:bottom;
+  background-position-y:right;
+  
 }
 
 h1,h2{
- font-family: 'Passion One', cursive;
- color: #E2C139;
- letter-spacing:6px;
+ font-family: 'Roboto', sans-serif;
+ color: #06505F;
+ 
  
 }
 
@@ -58,14 +64,15 @@ h1,h2{
   background-size: cover;
 }
 
-/*------------I L L U S T R A T I O N---------*/
+/*------------I L L U S T R A T I O N/dessin---------*/
 
 .illustrations img{
  
-  width:90%;
-  height:420px;
+  width:320px;
+  height:344px;
   object-fit:cover;
   transition: 2s;
+  border-radius: 15px;
   
 }
 .illustrations  img:hover{
@@ -79,24 +86,45 @@ h1,h2{
   align-items:center;
   width:100%;
   margin-top:0px;
-  background: #E4CAB8;
   padding-bottom:20px;
 }
  .illustrations{
-  width:427px;
-  height:450px;
+  width:370px;
+  height: 364px;
   text-align:center;
  }   
 
 /*----------H O M E-------------*/
-.home{
-  margin-top:0;
+
+.head{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding:30px 100px;
+
+}
+.headA{
+  display:flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+}
+.head img{
+  width:350px;
+
 }
 .home h1{
-  text-align:center;
-  margin-top:0;
-  font-size:1.5em;
-  animation: moove1 4s linear; 
+  text-align:left;
+  padding-bottom: 0em;
+  margin-bottom: 0;
+  line-height: 1.5em;
+  font-size:0.9em;
+  letter-spacing: 2px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+  /*animation: moove1 4s linear; 
     }
     @keyframes moove1{
       0% {letter-spacing:2px}
@@ -104,36 +132,58 @@ h1,h2{
       50%{letter-spacing:7px} 
       75%{letter-spacing:9px} 
       100%{letter-spacing:12px} 
-     
+     */
     }
+
+    .head ul{
+      list-style:none;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      margin-top:20px;
+      margin-bottom: 0em;
+      padding-top:0;
+      margin-left: 0em;
+      
+     
+}
+
+.head ul li+li{
+      margin-left:10px;
+     
+      
+}
+
+
 .home .illustrations img{
  
-  width:90%;
-  height:390px;
+  width:249px;
+  height:290px;
   object-fit:cover;
   z-index:-1;
+  border-radius: 15px;
 } 
 
 
-
-.home section{
+.home .cards{
   display:flex;
   flex-wrap: wrap;
-  justify-content:center;
-  margin-top:50px;
-  padding:20px;
-  background: #E4CAB8;
+  justify-content:flex-end;
+  margin-right: 60px;
+  margin-top:10px;
+  padding:20px
+ 
   
 }
 
 .home .illustrations .titre p{
    font-family: 'Passion One', cursive;
-   letter-spacing:12px;
+   letter-spacing:2px;
    color:white;
-   font-size:2.5em;
+   font-size:2em;
    width:90%;
-   padding:120px 0  180px 0;
-   border:white 1px solid;
+   padding:100px 0  180px 0;
+  
    text-align:center;
    z-index:1;
    
@@ -153,8 +203,8 @@ h1,h2{
 }
 .home .illustrations {
    position:relative;
-   width:350px;
-   height:400px;
+   width:270px;
+   height:310px;
    text-align:center;
   
 }
@@ -235,7 +285,7 @@ h1,h2{
 
 }
 
-/*----------F A S H I O N-------------*/
+/*----------F A S H I O N / Illustrations-------------*/
 .fashion{
   width:100%;
   display:flex;
@@ -245,11 +295,12 @@ h1,h2{
 
 
  h1{
-  font-size: 2.5em;
-  letter-spacing: 10px;
-  margin-top:0;
-  margin-bottom:20px;
-  text-align:center;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  margin-top:30px;
+  margin-bottom:0px;
+  text-align:left;
+  margin-left: 200px;
 }
  
 /*----------P O R T R A I T S-------------*/
@@ -259,9 +310,7 @@ h1,h2{
   flex-direction:column;
   justify-content:center;
 }
-.portraits .images{
-  background-color:#c7bc9e;
-}
+
  
 /*----------N A T U R E-------------*/
 
@@ -320,55 +369,24 @@ h1,h2{
   .footer .copyrights{
       font-family: 'Roboto', sans-serif;
       font-size:0.8em;
-      color: #857D7D;
+      color: #06505F;
       display:flex;
-     
-      justify-content:center;
+      margin: 30px 0px;
+      justify-content:flex-end;
       align-items:center;
-      margin:50px 0 10px 10px;
+    
   }
 
   .footer .copyrights svg{
       padding:0 2px 0 5px;
     
-     
+  
+  
   }
-   .findme{
-      margin:30px 0;
-      height:180px;
-      margin-top:100px;
-      padding-bottom:0;
-      display:flex;
-      flex-direction:column;
-      align-items:flex-start;
-
-}
-  .findmeimg{
-      width:100%;
-      height:1800px;
-      padding-bottom:0;
-      background-image:url("./Components/findme.png");
-      background-repeat: no-repeat;
-      background-size:100% 100%;
-      
-
-}
- .findme ul{
-      list-style:none;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      margin-top:0;
-      padding-top:0;
-      width:100%;
-     
-}
-
-.footer ul li+li{
-      margin-left:10px;
-
-}
- 
+ .footer{
+   height:50px;
+   margin-right: 90px;
+ }
  
     /*----------C O N T A C T-------------*/
 
@@ -645,7 +663,7 @@ h1,h2{
           display:flex;
           flex-direction:column;
           flex-wrap:wrap;
-          margin-top:5px;
+          margin-top:20px;
           margin-right:10px;  
           
         }
@@ -658,34 +676,26 @@ h1,h2{
           font-size:0.7em;
         }  
      
-         .findmeimg{
-          width:100%;
-          height:20vh;
-          padding-bottom:0;
-          background-image:url("./Components/findme2.png");
-          background-repeat: no-repeat;
-          background-size:120% 70%;
-
-        }
+         
         .patterns .titre{
           margin-left:0;
         }
         .home h1{
-          font-size:0.5em;
+          font-size:0.4em;
           margin-top:20px;
-          letter-spacing:4px;
           margin-bottom:0;
+          letter-spacing: 0em;
           padding-bottom:0;
           animation: moove1 4s linear; 
         }
-        @keyframes moove1{
+        /*@keyframes moove1{
           0% {letter-spacing:0px}
           25% {letter-spacing:1px}
           50%{letter-spacing:2px} 
           75%{letter-spacing:3px} 
           100%{letter-spacing:4px} 
      
-    }
+    }*/
         .findme ul{
           padding-right:20px;
         }
